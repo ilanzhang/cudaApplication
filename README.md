@@ -1,2 +1,2 @@
 # cudaApplication
-some  points of the cuda with which medical images were reconstructed
+使用cuda加速进行图像重建的一些心得体会

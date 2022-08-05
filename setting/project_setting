@@ -21,6 +21,6 @@
   右击cu文件-properties-cuda c/c++-host-generate host debug information-yes(-g)
 10.除了创建文件是选择cuda文件，也需要在文件属性确认是否为cuda文件：
   右击cu文件-properties-cuda c/c++-general-item type-cuda c/c++
-![cuda_project_setting](https://github.com/zhanglin-1993/cudaApplication/blob/main/%E8%AE%BE%E7%BD%AE/cuda_project_setting.jpg "cuda_project_setting");
-![cuda_file_setting](https://github.com/zhanglin-1993/cudaApplication/blob/main/%E8%AE%BE%E7%BD%AE/cuda_file_setting.jpg "cuda_project_setting");
-![cuda_build_customization](https://github.com/zhanglin-1993/cudaApplication/blob/main/%E8%AE%BE%E7%BD%AE/cuda_build_customization.jpg "cuda_project_setting");
+![cuda_project_setting](https://github.com/zhanglin-1993/cudaApplication/blob/main/setting/cuda_project_setting.jpg "cuda_project_setting");
+![cuda_file_setting](https://github.com/zhanglin-1993/cudaApplication/blob/main/setting/cuda_file_setting.jpg "cuda_project_setting");
+![cuda_build_customization](https://github.com/zhanglin-1993/cudaApplication/blob/main/setting/cuda_build_customization.jpg "cuda_project_setting");

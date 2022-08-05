@@ -13,8 +13,11 @@
 (网址为https://developer.nvidia.com/cuda-gpus#compute)，则设置为compute_86, sm_86，代码中只需要#include "cuda_runtime.h"和#include "device_launch_parameters.h"即可.
 6.设置额外的链接库路径以进行代码链接：
   右击工程-properties-linker-general-additional include directories-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64
-7.在额外的链接库路径中加入具体的库文件，
+7.在额外的链接库路径中加入具体的库文件：
   比如cudnn.lib, cufft.lib文件等
 //TODO 8.产生调试信息：
    右击工程-properties-linker-debugging-generate debug info-generate debug information(/DEBUG)
- 
+9.想要进入cu文件以进行调试：
+  右击cu文件-properties-cuda c/c++-host-generate host debug information-yes(-g)
+10.除了创建文件是选择cuda文件，也需要在文件属性确认是否为cuda文件：
+  右击cu文件-properties-cuda c/c++-general-item type-cuda c/c++

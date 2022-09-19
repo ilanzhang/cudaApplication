@@ -1,4 +1,4 @@
-0. 想要使用cuda编程，首先需要将当前工程设置为cuda工程： 
+0. 想要使用cuda编程，首先需要将当前工程设置为cuda工程：  
   右击工程-build dependencies-build customizations-使用的cuda版本（比如cuda11.1）  
 1. 设置该工程的通用属性：  
   右击工程-properties-general，输出文件名，输出文件类型，输出文件路径，中间文件路径，SDK版本等  
